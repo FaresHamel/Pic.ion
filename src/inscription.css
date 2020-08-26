@@ -86,7 +86,7 @@ html {
 }
 
 .content_image {
-    background-image: url('pictures/picture1.jpg');
+    background-image: url('../Assets/img/picture1.jpg');
     background-position: top;
     background-size: cover;
     height: 100%;

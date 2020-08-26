@@ -13,7 +13,7 @@ body {
 .contaner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to right, #02111d23, #037ab557, #60626423), url("../Images/backgrround1.jpg");
+    background-image: linear-gradient(to right, #02111d23, #037ab557, #60626423), url("../Assets/img/backgrround1.jpg");
     background-position: top;
     background-size: cover;
     display: flex;
@@ -203,7 +203,7 @@ label {
 
 .right {
     flex-basis: 50%;
-    background-image: url("pictures/pexels3.jpg");
+    background-image: url("../Assets/img/pexels3.jpg");
     background-position: top;
     background-size: cover;
     border-top-right-radius: 10px;

@@ -492,7 +492,7 @@ main.main {
 }
 
 .content_image {
-    background-image: url("../Images/backgrround1.jpg");
+    background-image: url("../Assets/img/backgrround1.jpg");
     background-position: top;
     background-size: cover;
     width: 100%;
