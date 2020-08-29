@@ -1,3 +1,11 @@
 body {
   text-align: center;
 }
+
+.imageBackground {
+  background-color: aquamarine;
+  height: 50vh;
+  background-image: url('./Assets/img/backgrround1.jpg');
+  background-size: cover;
+  background-position: center;
+}
