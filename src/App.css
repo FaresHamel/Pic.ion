@@ -3,7 +3,6 @@ body {
 }
 
 .imageBackground {
-  background-color: aquamarine;
   height: 50vh;
   background-image: url('./Assets/img/backgrround1.jpg');
   background-size: cover;
