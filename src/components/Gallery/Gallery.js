@@ -19,7 +19,6 @@ const Gallery = () => (
          </div>
        </div>
 
-
        <div className="row">
          <div className="col">
            <img src={require('../../Assets/img/1.jpg')} alt=""/>

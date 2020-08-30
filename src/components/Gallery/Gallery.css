@@ -1,7 +1,14 @@
 .Gallery {}
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
 .row {
     margin: 5px 0;
+    width: 100%;
+    display: block;
 }
 
 .col > img {
