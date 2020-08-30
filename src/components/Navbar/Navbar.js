@@ -1,6 +1,5 @@
 import React from 'react';
 import './Navbar.css';
-import { useHistory } from "react-router-dom";
 
 
 
@@ -15,13 +14,24 @@ class Navbar extends React.Component {
     this.props.history.push("/register")
   }
 
+  goToHomePage = () => {
+    this.props.history.push("/")
+  }
+
 
   render() {
     return (
       <div className="Navbar">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand" href="#">Pic.io</a>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <a href="/#" className="navbar-brand"
+         onClick={this.goToHomePage}>Pic.io</a>
+      <button className="navbar-toggler" 
+              type="button" 
+              data-toggle="collapse" 
+              data-target="#navbarSupportedContent" 
+              aria-controls="navbarSupportedContent" 
+              aria-expanded="false" 
+              aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>
 
@@ -33,10 +43,10 @@ class Navbar extends React.Component {
 
         <ul className="navbar-nav mx-auto">
           <li className="nav-item">
-            <a className="nav-link" href="#">FAQ <span className="sr-only">(current)</span></a>
+            <a className="nav-link" href="/#">FAQ <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">EXPLORE</a>
+            <a className="nav-link" href="/#">EXPLORE</a>
           </li>
           <li className="nav-item">
           <button type="button" className="btn btn-outline-light mx-2">Submit a photo</button>

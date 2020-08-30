@@ -1,1 +1,5 @@
 .Navbar {}
+
+.navbar-brand {
+    cursor: pointer;
+}

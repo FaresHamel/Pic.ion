@@ -1,1 +1,10 @@
-.signup {}
+.signup {
+    background-color: #999;
+    height: 91.8vh;
+    padding-top: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
